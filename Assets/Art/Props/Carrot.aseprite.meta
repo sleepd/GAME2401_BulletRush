@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 466ac715e819e9247ba11870f1b6cbe5
+guid: 6b76fe10abd05c44f95d47907aa44f14
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638967482863203098
+  platformSettingsDirtyTick: 638967849279120648
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: player_sprite
+  - name: Carrot
     originalName: 
-    pivot: {x: 0.44444445, y: 0}
+    pivot: {x: 0.51724136, y: -0.032258064}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 27
+      width: 29
       height: 31
-    spriteID: 7a32b2c8f70afdb40a24b96b659902fa
+    spriteID: 2202f1fb47ff81449826102caa764b49
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 1000374117
+      value0: 1209145989
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: player_sprite
+    name: Carrot
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: player_sprite
+    - name: Carrot
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 4
-        y: 0
-        width: 27
+        x: 1
+        y: 1
+        width: 29
         height: 31
-      spriteId: 7a32b2c8f70afdb40a24b96b659902fa
+      spriteId: 2202f1fb47ff81449826102caa764b49
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -181,7 +181,7 @@ ScriptedImporter:
   - name: DefaultTexturePlatform
     overridden: 0
     ignorePlatformSupport: 0
-    maxTextureSize: 32
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -191,6 +191,18 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
     overridden: 0
     ignorePlatformSupport: 0
     maxTextureSize: 16384

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 466ac715e819e9247ba11870f1b6cbe5
+guid: adab1bdef645ed94bb7c56a82c6f3950
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -102,7 +102,7 @@ ScriptedImporter:
     generateIndividualEvents: 1
     generateSpriteAtlas: 1
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638967482863203098
+  platformSettingsDirtyTick: 638967844562899146
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: player_sprite
+  - name: S_Bullet
     originalName: 
-    pivot: {x: 0.44444445, y: 0}
+    pivot: {x: 0.5, y: -0.11538462}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 27
-      height: 31
-    spriteID: 7a32b2c8f70afdb40a24b96b659902fa
+      width: 26
+      height: 26
+    spriteID: 57d73d55df09b424985af670a8a1202a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 1000374117
+      value0: 1962101584
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: player_sprite
+    name: S_Bullet
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: player_sprite
+    - name: S_Bullet
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 4
-        y: 0
-        width: 27
-        height: 31
-      spriteId: 7a32b2c8f70afdb40a24b96b659902fa
+        x: 3
+        y: 3
+        width: 26
+        height: 26
+      spriteId: 57d73d55df09b424985af670a8a1202a
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -181,7 +181,7 @@ ScriptedImporter:
   - name: DefaultTexturePlatform
     overridden: 0
     ignorePlatformSupport: 0
-    maxTextureSize: 32
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -191,6 +191,18 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
     overridden: 0
     ignorePlatformSupport: 0
     maxTextureSize: 16384
