@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerInventory : PlayerComponent
 {
+    
     public PlayerInventory(PlayerController playerController) : base(playerController)
     {
     }

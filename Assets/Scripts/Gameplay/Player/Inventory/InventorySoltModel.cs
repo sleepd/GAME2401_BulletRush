@@ -1,5 +1,5 @@
 public struct InventorySoltModel
 {
-    public ItemData Item;
+    public string Id;
     public int Amount;
 }

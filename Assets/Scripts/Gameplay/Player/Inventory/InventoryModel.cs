@@ -1,18 +1,26 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class InventoryModel
 {
     public List<InventorySoltModel> Solts { get; }
-    
+    public event Action OnChanged;
+
     public InventoryModel(int size)
     {
-        for (int i=0; i<size; i++)
+        Solts = new();
+        for (int i = 0; i < size; i++)
         {
             InventorySoltModel slot = new();
-            slot.Item = null;
+            slot.Id = null;
             slot.Amount = 0;
             Solts.Add(slot);
         }
+    }
+    
+    public void NotifyChanged()
+    {
+        OnChanged?.Invoke();
     }
 }

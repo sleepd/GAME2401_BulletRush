@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a34d5e16cfeb95438dab4d314bfa1af, type: 3}
+  m_Name: Item_Bullet_S
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  Id: Bullet_001
+  DisplayName: S Bullet
+  Icon: {fileID: -1759857517369392656, guid: adab1bdef645ed94bb7c56a82c6f3950, type: 3}
+  MaxStack: 99

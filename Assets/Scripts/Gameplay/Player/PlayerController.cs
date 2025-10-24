@@ -55,4 +55,12 @@ public class PlayerController : MonoBehaviour
     {
         return (T)_components[typeof(T)];
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.TryGetComponent<ICollectable>(out var collectable))
+        {
+            collectable.Pickup();
+        }
+    }
 }
