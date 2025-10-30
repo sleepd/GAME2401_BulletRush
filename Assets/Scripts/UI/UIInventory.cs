@@ -11,17 +11,17 @@ public class UIInventory : MonoBehaviour
     void Awake()
     {
         _slots = new();
-    }
-
-    void OnEnable()
-    {
         for (int i = 0; i < InventorySystem.Instance.Model.Solts.Count; i++)
         {
             UIInventorySlot slot = Instantiate(_slotPrefab, _slotContainer);
             _slots.Add(slot);
         }
-        
+    }
+
+    void OnEnable()
+    {
         InventorySystem.Instance.Model.OnChanged += RefreshInventoryUI;
+        RefreshInventoryUI();
     }
 
     void OnDisable()
